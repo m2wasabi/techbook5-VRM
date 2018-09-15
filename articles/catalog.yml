@@ -2,9 +2,15 @@ PREDEF:
   - 00.preface.re
 
 CHAPS:
-  - 01.article.re
+  - 01.introduction.re
+  - 02.applications.re
+  - 03.install.re
+  - 04.create_model.re
+  - 05.create_application.re
+  - 06.extra_mission.re
 
 APPENDIX:
 
 POSTDEF:
+  - 98.afterword.re
   - 99.contributors.re
