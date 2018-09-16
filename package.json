@@ -26,9 +26,11 @@
     "html": "grunt html",
     "test": "npm run html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
   "devDependencies": {
-    "grunt": "1.0.1",
+    "grunt": "^1.0.3",
     "grunt-cli": "1.2.0",
     "grunt-contrib-clean": "1.0.0",
     "grunt-open": "0.2.3",
