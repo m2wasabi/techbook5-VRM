@@ -93,7 +93,7 @@ URL：https://3tene.com/
 
 === VDRAW
 URL：https://sites.google.com/view/vdraw/
-作者：おぐら
+作者：おぐら @OGOG_Ogur
 
 === バーチャルモーションキャプチャ―
 URL：https://github.com/sh-akira/VirtualMotionCapture
@@ -115,6 +115,26 @@ VRMキャラで街のフィールドを歩き回ったり、オブジェクト�
 mqdlさんのXISMO
 https://twitter.com/mqdl/status/1022747807646539776
 https://twitter.com/mqdl/status/1028796028563025921
+
+
+
+== 現在開発中のもの
+
+=== VRコラボ
+作者：karukaru @_karukaru_
+https://com.nicovideo.jp/live_archives/co70543
+https://com.nicovideo.jp/community/co70543?com_header=1
+
+
+VR空間を共有してコミュニケーションをするアプリケーションです。
+個室のようにも使えるし、バーチャルキャストのようにコメントを拾って凸あり生放送にも使えます。
+
+=== BabiSenGO
+作者：やのせん @yanosen_jp
+
+https://twitter.com/yanosen_jp/status/1041484658905571328
+
+OculusGoで
 
 
 == Unity以外のプラットフォーム
@@ -149,25 +169,6 @@ URL：https://github.com/t-takasaka/vrm-three-posenet
 
 THREE.jsとPoseNetを使って動画からVRMにモーションを転写するサンプルコードです。
 
-
-== 現在開発中のもの
-
-=== VRコラボ
-作者：karukaru @_karukaru_
-https://com.nicovideo.jp/live_archives/co70543
-https://com.nicovideo.jp/community/co70543?com_header=1
-
-
-VR空間を共有してコミュニケーションをするアプリケーションです。
-個室のようにも使えるし、バーチャルキャストのようにコメントを拾って凸あり生放送にも使えます。
-
-=== BabiSenGO
-作者：やのせん @yanosen_jp
-
-https://twitter.com/yanosen_jp/status/1041484658905571328
-
-OculusGoで
-
 === UnrealEngine4 での VRMランタイム
 
 悩ましい状況が続いています。
@@ -178,4 +179,3 @@ https://github.com/code4game/glTFForUE4/
 しかしながら、VRMに特化してローディグ環境を完成させたという報告はまだありません。
 UETokyoのプロジェクトを推進するか、glTFForUE4をフォークして作る人しかありません。
 https://github.com/uetokyo/UnrealVRM
-
