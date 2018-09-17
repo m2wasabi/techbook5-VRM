@@ -14,7 +14,7 @@
 本書にて図表で利用しているVRMモデルは以下です。
 
 ライセンス
-
+http://3d.nicovideo.jp/alicia/rule.html
 
 == 電子版のご案内
 
