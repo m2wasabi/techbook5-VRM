@@ -57,6 +57,7 @@ VRMをロードしてUnityちゃんのモーションを確認できるアプリ
 http://fantom1x.blog130.fc2.com/blog-entry-309.html
 
 UnityちゃんのCandyRockStarがデモで入っているVRMビュワーです。
+BVHインポート機能があったり、ビュワーの中ではもっとも高機能です。
 
 === VPocket
 
@@ -95,9 +96,19 @@ URL：https://3tene.com/
 URL：https://sites.google.com/view/vdraw/
 作者：おぐら @OGOG_Ogur
 
+お絵描き配信に特化したアプリです。
+基本動作は、画面のミラーがウィンドウ内に表示され、マウスポインタをペンを持ったアバターが追いかけます。
+音声入力からのリップシンク、背景の変更、画面キャプチャ範囲の変更など、
+おおよそお絵描き配信に必要な機能は不足なく実装されています。
+個人製作のVRM対応アプリとしての完成度はトップクラスです。
+
 === バーチャルモーションキャプチャ―
 URL：https://github.com/sh-akira/VirtualMotionCapture
 作者：あきら @sh_akira
+
+配信中画面にアバターの動きを合成するためのアプリです。
+これによってあたかも自分のアバターがゲーム内に入ったかのような映像が得られます。
+現在βながら、個人配信者に非常に人気の高いアプリです。
 
 == ゲームアプリ
 
@@ -112,30 +123,30 @@ VRMキャラで街のフィールドを歩き回ったり、オブジェクト�
 
 == ツール
 
-mqdlさんのXISMO
+=== xismo
+作者：mqdl 
 https://twitter.com/mqdl/status/1022747807646539776
 https://twitter.com/mqdl/status/1028796028563025921
 
-
+個人開発の3Dモデリングツールです。
+現時点ではVRMの読み込みのみ対応しています。
 
 == 現在開発中のもの
 
-=== VRコラボ
+=== karukaruとXX
 作者：karukaru @_karukaru_
-https://com.nicovideo.jp/live_archives/co70543
-https://com.nicovideo.jp/community/co70543?com_header=1
+https://com.nicovideo.jp/community/co70543
 
-
-VR空間を共有してコミュニケーションをするアプリケーションです。
-個室のようにも使えるし、バーチャルキャストのようにコメントを拾って凸あり生放送にも使えます。
+ニコ生のコミュニティでVR空間を共有するアプリケーションやミニゲームを開発されています。
+生放送の時限定で使えるアプリなどもあります。生放送時か正式リリースを待ちましょう。
 
 === BabiSenGO
 作者：やのせん @yanosen_jp
 
 https://twitter.com/yanosen_jp/status/1041484658905571328
 
-OculusGoで
-
+OculusGoでプレゼンテーションを録画するシステムを開発中です。
+完成すればアバターによるウェビナーが急激に民主化するのではないでしょうか。
 
 == Unity以外のプラットフォーム
 
