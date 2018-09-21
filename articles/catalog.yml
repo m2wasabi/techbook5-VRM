@@ -4,10 +4,9 @@ PREDEF:
 CHAPS:
   - 01.introduction.re
   - 02.applications.re
-  - 03.install.re
-  - 04.create_model.re
-  - 05.create_application.re
-  - 06.extra.re
+  - 03.create_model.re
+  - 04.create_application.re
+  - 05.extra.re
 
 APPENDIX:
 
