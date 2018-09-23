@@ -131,6 +131,16 @@ https://twitter.com/mqdl/status/1028796028563025921
 個人開発の3Dモデリングツールです。
 現時点ではVRMの読み込みのみ対応しています。
 
+== VRoid Studio
+URL：https://vroid.pixiv.net/
+開発元：ピクシブ株式会社
+
+== Vカツ
+URL：
+開発元：IVR
+
+
+
 == 現在開発中のもの
 
 === karukaruとXX
