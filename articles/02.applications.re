@@ -28,6 +28,25 @@ clusterはVRMのアバターをアップするための制約が多く、アッ�
 https://clustervr.gitbook.io/sdk/avatar_customization/avatar_limit
 
 
+== アバターメイカー
+
+== Vカツ
+URL：
+開発元：IVR
+プラットフォーム：Windows
+
+パーツを組み合わせてアバターを作るタイプのアバター作成アプリです。
+元々「コイカツ」という18禁ゲームがあって、そのエイプリルフールネタが現実になってしまいました。
+
+
+
+== VRoid Studio
+URL：https://vroid.pixiv.net/
+開発元：ピクシブ株式会社
+プラットフォーム：Windows, Mac
+
+
+
 == ビュワー
 
 === UniVRMTest
@@ -45,14 +64,16 @@ MirageSoloなどのDaydream端末をお持ちでしたら、VRMモデルをVRで
 
 === VRMビュアー
 作者：ビームマンP @BeamManP
+プラットフォーム：Windows
 https://www43.atwiki.jp/beamman/
 
-VRMをロードしてUnityちゃんのモーションを確認できるアプリです。
-余談ですが、作者の方はMMD使いには有名な方です。
+サンプルを除いて、個人勢で最も早く公開されたアプリです。
+VRMをロードしてUnityちゃんのモーションを確認できるます。
 
 === VRM Live Viewer
 
 作者：ヽ｜∵｜ゝ(Fantom)
+プラットフォーム：Windows, Android
 
 http://fantom1x.blog130.fc2.com/blog-entry-309.html
 
@@ -62,6 +83,7 @@ BVHインポート機能があったり、ビュワーの中ではもっとも�
 === VPocket
 
 作者：ほーのき @booooooh522
+プラットフォーム：iOS, Android
 
 https://twitter.com/booooooh522/status/1031548305317093376
 
@@ -80,21 +102,24 @@ VRMモデルをARで表示させることができます。
 === UniWinApi & Example project
 https://github.com/kirurobo/UniWinApi
 作者：キルロボ @kirurobo
+プラットフォーム：Windows
 
 透過ウインドウに対応したVRMビュワーです。
 デスクトップマスコットアプリのスキャフォールディングを目指してそうなサンプルプロジェクトです。
-WindowsAPIを明確に使用しているので、プラットフォームはWindows専用です。
+WindowsAPIを明確に使用しているので、Windows以外への移植は難しそうです。
 
 == 動画配信用アプリ
 
 === 3tene
 URL：https://3tene.com/
 開発元：株式会社 プラスプラス
+プラットフォーム：Windows
 
 
 === VDRAW
 URL：https://sites.google.com/view/vdraw/
 作者：おぐら @OGOG_Ogur
+プラットフォーム：Windows
 
 お絵描き配信に特化したアプリです。
 基本動作は、画面のミラーがウィンドウ内に表示され、マウスポインタをペンを持ったアバターが追いかけます。
@@ -105,6 +130,7 @@ URL：https://sites.google.com/view/vdraw/
 === バーチャルモーションキャプチャ―
 URL：https://github.com/sh-akira/VirtualMotionCapture
 作者：あきら @sh_akira
+プラットフォーム：Windows
 
 配信中画面にアバターの動きを合成するためのアプリです。
 これによってあたかも自分のアバターがゲーム内に入ったかのような映像が得られます。
@@ -114,30 +140,27 @@ URL：https://github.com/sh-akira/VirtualMotionCapture
 
 === Vワールド
 作者：  @7u_NABY
+プラットフォーム：Windows
 https://twitter.com/7u_NABY/status/1033699969289543682
 
 自撮り＋ワールドクリエイションみたいなアプリです。
 VRMキャラで街のフィールドを歩き回ったり、オブジェクトを設置したりできます。
 光源の設定が細かく、スクリーンショットには独特の味があります。
+ワールドをシェアできるプラットフォームを開発中らしいです。
+また、VRoid Hub発表時に、個人勢で唯一API対応を謳っているアプリです。
+本書が出回る頃には具体的情報が出ている気がします。
 けもフレRPGの作者。
 
 == ツール
 
 === xismo
 作者：mqdl 
+プラットフォーム：Windows
 https://twitter.com/mqdl/status/1022747807646539776
 https://twitter.com/mqdl/status/1028796028563025921
 
 個人開発の3Dモデリングツールです。
 現時点ではVRMの読み込みのみ対応しています。
-
-== VRoid Studio
-URL：https://vroid.pixiv.net/
-開発元：ピクシブ株式会社
-
-== Vカツ
-URL：
-開発元：IVR
 
 
 
@@ -152,11 +175,16 @@ https://com.nicovideo.jp/community/co70543
 
 === BabiSenGO
 作者：やのせん @yanosen_jp
+プラットフォーム：OculusGo
 
 https://twitter.com/yanosen_jp/status/1041484658905571328
 
 OculusGoでプレゼンテーションを録画するシステムを開発中です。
 完成すればアバターによるウェビナーが急激に民主化するのではないでしょうか。
+
+== Vカーソル
+作者：えもこ @emoco_art
+https://www.youtube.com/watch?v=jJls7xFXw3s
 
 == Unity以外のプラットフォーム
 
