@@ -13,10 +13,12 @@
 
 == 本書で使用しているリソースについて
 
-本書にて図表で利用しているVRMモデルは以下です。
+本書にて図表にて掲載・お借りしているVRMモデルは以下です。
 
-ライセンス
-http://3d.nicovideo.jp/alicia/rule.html
+ * アリシア・ソリッド(ニコニ立体ちゃん)
+ ** URL：@<href>{http://3d.nicovideo.jp/alicia/rule.html}
+ ** ライセンス：@<href>{http://3d.nicovideo.jp/alicia/rule.html}
+
 
 == 電子版のご案内
 
