@@ -20,9 +20,10 @@ VRツール一覧まとめwiki@<fn>{VRTOOLWIKI}にある程度書いてありま
 //}
 
 === バーチャルキャスト
-開発元：株式会社バーチャルキャスト @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{https://virtualcast.jp/} @<br>{}
+
+ * 開発元：株式会社バーチャルキャスト 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://virtualcast.jp/} 
 
 最初にして最強のVRMアプリです。
 ニコニコ動画を拡張した実験放送に対応し、3Dアバターで生配信・凸できます。
@@ -37,9 +38,10 @@ VR環境が必須で、HTC Vive 10点トラッキング対応などコストを�
 
 
 === cluster
-開発元：クラスター株式会社 @<br>{}
-プラットフォーム：Windows, Mac @<br>{}
-URL：@<href>{https://cluster.mu/} @<br>{}
+
+ * 開発元：クラスター株式会社 
+ * プラットフォーム：Windows, Mac 
+ * URL：@<href>{https://cluster.mu/} 
 
 『引きこもりを加速する』を合言葉にしているバーチャル会議プラットフォーム cluster は、PCやVRを使ってオンラインでミーティングが開催できるアプリケーションプラットフォームです。
 VRMの発表からいち早くアバターのVRM対応を行いました。
@@ -61,9 +63,10 @@ VRライブのスタジオ部門を立ち上げようとしている@<fn>{2.clus
 //}
 
 === Vカツ
-開発元：IVR @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{http://vkatsu.jp/} @<br>{}
+
+ * 開発元：IVR 
+ * プラットフォーム：Windows 
+ * URL：@<href>{http://vkatsu.jp/} 
 
 パーツを組み合わせてアバターを作るタイプのアバター作成アプリです。
 ニコニ立体と連携することで、作成したアバターをバーチャルキャストで使用することができます。
@@ -76,9 +79,10 @@ URL：@<href>{http://vkatsu.jp/} @<br>{}
 //footnote[2.Vkatsu.shop][@<href>{http://www.i-vr.shop/index.php}]
 
 === VRoid Studio
-開発元：ピクシブ株式会社 @<br>{}
-プラットフォーム：Windows, Mac @<br>{}
-URL：@<href>{https://vroid.pixiv.net/} @<br>{}
+
+ * 開発元：ピクシブ株式会社 
+ * プラットフォーム：Windows, Mac 
+ * URL：@<href>{https://vroid.pixiv.net/} 
 
 髪型を自由に作ることに重点を置いたアバター作成アプリです。
 パラメータを設定して髪を調整するだけでなく、フリーハンドで絵を描くように髪を作ることができます。
@@ -96,8 +100,9 @@ VRMモデルを見るためのアプリです。
 //}
 
 === UniVRMTest
-作者：ousttrue @<br>{}
-URL：@<href>{https://github.com/dwango/UniVRMTest} @<br>{}
+
+ * 作者：株式会社ドワンゴ 
+ * URL：@<href>{https://github.com/dwango/UniVRMTest} 
 
 ドワンゴさんのUniVRMの公式サンプルです。
 モーションを読み込んでアニメーションとMETA情報の確認ができます。
@@ -109,18 +114,19 @@ URL：@<href>{https://github.com/dwango/UniVRMTest} @<br>{}
 MirageSoloなどのDaydream端末をお持ちでしたら、VRMモデルをVRで見ることができます。
 
 === VRMビュアー
-作者：ビームマンP @BeamManP @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{https://www43.atwiki.jp/beamman/} @<br>{}
+
+ * 作者：ビームマンP @BeamManP 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://www43.atwiki.jp/beamman/} 
 
 サンプルを除いて、個人勢で最も早く公開されたアプリです。
 VRMをロードしてUnityちゃんのモーションを確認できるます。
 
 === VRM Live Viewer
 
-作者：ヽ｜∵｜ゝ(Fantom) @<br>{}
-プラットフォーム：Windows, Android @<br>{}
-URL：@<href>{http://fantom1x.blog130.fc2.com/blog-entry-309.html} @<br>{}
+ * 作者：ヽ｜∵｜ゝ(Fantom) 
+ * プラットフォーム：Windows, Android 
+ * URL：@<href>{http://fantom1x.blog130.fc2.com/blog-entry-309.html} 
 
 UnityちゃんのCandyRockStarがデモで入っているVRMビュワーです。
 BVHインポート機能があったり、ビュワーの中ではもっとも高機能です。
@@ -128,9 +134,9 @@ Windows版とAndroid版があります。
 
 === VPocket
 
-作者：ほーのき @booooooh522 @<br>{}
-プラットフォーム：iOS, Android @<br>{}
-URL：@<href>{https://twitter.com/booooooh522/status/1031548305317093376} @<br>{}
+ * 作者：ほーのき @booooooh522 
+ * プラットフォーム：iOS, Android 
+ * URL：@<href>{https://twitter.com/booooooh522/status/1031548305317093376} 
 
 @<href>{https://play.google.com/store/apps/details?id=com.BooApps.VPocket}
 @<href>{https://itunes.apple.com/jp/app/vpocket-vrm-viewer/id1426245522?mt=8}
@@ -145,9 +151,9 @@ VRMモデルをARで表示させることができます。
 
 
 === UniWinApiVrmViewer
-作者：キルロボ @kirurobo @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{https://github.com/kirurobo/UniWinApi} @<br>{}
+ * 作者：キルロボ @kirurobo 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://github.com/kirurobo/UniWinApi} 
 
 透過ウインドウに対応したVRMビュワーです。
 デスクトップマスコットアプリのスキャフォールディングを目指してそうなプロジェクトです。
@@ -161,15 +167,15 @@ WindowsAPIを明確に使用しているので、Windows以外への移植は難
 //}
 
 === 3tene
-開発元：株式会社 プラスプラス @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{https://3tene.com/} @<br>{}
+ * 開発元：株式会社 プラスプラス 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://3tene.com/} 
 
 
 === VDRAW
-URL：@<href>{https://sites.google.com/view/vdraw/} @<br>{}
-作者：おぐら @OGOG_Ogur @<br>{}
-プラットフォーム：Windows @<br>{}
+ * URL：@<href>{https://sites.google.com/view/vdraw/} 
+ * 作者：おぐら @OGOG_Ogur 
+ * プラットフォーム：Windows 
 
 お絵描き配信に特化したアプリです。
 基本動作は、画面のミラーがウィンドウ内に表示され、マウスポインタをペンを持ったアバターが追いかけます。
@@ -178,9 +184,9 @@ URL：@<href>{https://sites.google.com/view/vdraw/} @<br>{}
 個人製作のVRM対応アプリとしての完成度はトップクラスです。
 
 === バーチャルモーションキャプチャ―
-URL：@<href>{https://github.com/sh-akira/VirtualMotionCapture} @<br>{}
-作者：あきら @sh_akira @<br>{}
-プラットフォーム：Windows @<br>{}
+ * 作者：あきら @sh_akira 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://github.com/sh-akira/VirtualMotionCapture} 
 
 配信中画面にアバターの動きを合成するためのアプリです。
 これによってあたかも自分のアバターがゲーム内に入ったかのような映像が得られます。
@@ -194,9 +200,9 @@ VRMを使ってそれぞれのコンテンツを楽しむアプリです。
 //}
 
 === Vワールド
-作者：NABY  @7u_NABY @<br>{}
-プラットフォーム：Windows @<br>{}
-URL：@<href>{https://twitter.com/7u_NABY/status/1033699969289543682} @<br>{}
+ * 作者：NABY  @7u_NABY 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://twitter.com/7u_NABY/status/1033699969289543682} 
 
 自撮り＋ワールドクリエイションみたいなアプリです。
 VRMキャラで街のフィールドを歩き回ったり、オブジェクトを設置したりできます。
@@ -213,8 +219,8 @@ VRMデータを作ったり応用するためのアプリです。
 //}
 
 === xismo
-作者：mqdl @mqdl @<br>{}
-プラットフォーム：Windows @<br>{}
+ * 作者：mqdl @mqdl 
+ * プラットフォーム：Windows 
 
 個人開発の3Dモデリングツールです。
 ミニマル＆スタンダードな作りになっていて、基本的なモデリング機能はきれいにまとまっています。
@@ -226,15 +232,18 @@ VRMデータを作ったり応用するためのアプリです。
 
 
 === VRM Converter for VRChat
-作者：ぽけもり  @<br>{}
-プラットフォーム：Unity @<br>{}
-URL：@<href>{https://booth.pm/ja/items/1025226} @<br>{}
+ * 作者：ぽけもり  
+ * プラットフォーム：Unity 
+ * URL：@<href>{https://booth.pm/ja/items/1025226} 
+
+VRMのモデルをVRChatで利用できるアバターに変換できるツールセットです。
+VRChatのプレイヤーでVRMで作った
 
 
 === VRMtoPMXExporter
-作者：Furia @flammpfeil  @<br>{}
-プラットフォーム：Unity @<br>{}
-https://twitter.com/flammpfeil/status/1032266829597573121 @<br>{}
+ * 作者：Furia @flammpfeil  
+ * プラットフォーム：Unity 
+ * URL：@<href>{https://twitter.com/flammpfeil/status/1032266829597573121} 
 
 
 == 現在開発中のもの
@@ -244,8 +253,8 @@ https://twitter.com/flammpfeil/status/1032266829597573121 @<br>{}
 //}
 
 === YOU ARE VTUBER!!
-作者：なっつー @yashinut @<br>{}
-URL：@<href>{https://www.youtube.com/watch?v=OOaPSN73V7E} @<br>{}
+ * 作者：なっつー @yashinut 
+ * URL：@<href>{https://www.youtube.com/watch?v=OOaPSN73V7E} 
 
 なっつー氏は、個人で様々なアプリを作られている方です。
 『YOU ARE VTUBER!!』は過去に銀VRで展示、コミックマーケット94で頒布されました。
@@ -261,29 +270,29 @@ VRMは対応はアップデートで対応される雰囲気です。@<fn>{2.yas
 //footnote[2.yashinut.3][@<href>{https://twitter.com/yashinut/status/1044206458596810752}]
 
 === karukaruとXX
-作者：karukaru @_karukaru_ @<br>{}
-URL：@<href>{https://com.nicovideo.jp/community/co70543} @<br>{}
+ * 作者：karukaru @_karukaru_ 
+ * URL：@<href>{https://com.nicovideo.jp/community/co70543} 
 
 ニコ生のコミュニティでVR空間を共有するアプリケーションやミニゲームを開発されています。
 生放送の時限定で使えるアプリなどもあります。生放送時か正式リリースを待ちましょう。
 
 === BabiSenGO
-作者：やのせん @yanosen_jp @<br>{}
-プラットフォーム：OculusGo @<br>{}
-URL：@<href>{https://twitter.com/yanosen_jp/status/1041484658905571328} @<br>{}
+ * 作者：やのせん @yanosen_jp 
+ * プラットフォーム：OculusGo 
+ * URL：@<href>{https://twitter.com/yanosen_jp/status/1041484658905571328} 
 
 OculusGoでプレゼンテーションを録画するシステムを開発中です。
 完成すればアバターによるウェビナーが急激に民主化するのではないでしょうか。
 
 === Vカーソル
-作者：えもこ @emoco_art @<br>{}
-情報ソース：@<href>{https://www.youtube.com/watch?v=jJls7xFXw3s} @<br>{}
+ * 作者：えもこ @emoco_art 
+ * 情報ソース：@<href>{https://www.youtube.com/watch?v=jJls7xFXw3s} 
 
 VRMモデルのキャラクターがマウスカーソルを追従するデスクトップマスコットです。
 
 === セシル変身（仮）アプリ
-作者：スズキセシル
-情報ソース：@<href>{https://twitter.com/Cecil_Channel/status/1047124416939741184}
+ * 作者：スズキセシル
+ * 情報ソース：@<href>{https://twitter.com/Cecil_Channel/status/1047124416939741184}
 
 Unityを使った物理演算芸と昭和センスな女の子というギャップが面白い
 バーチャルYouTuberのスズキセシルさんのアバターメイカーツールです。
@@ -297,7 +306,7 @@ VRMはUnityだけのものじゃない。イノベーションを起こしてい
 //}
 
 === THREE.js
-URL：@<href>{https://threejs.org/examples/?q=VRM#webgl_loader_vrm} @<br>{}
+ * URL：@<href>{https://threejs.org/examples/?q=VRM#webgl_loader_vrm} 
 
 WebGLライブラリの中で一番使われているライブラリ。
 もともとglTF2.0のロードには対応していたので、その流れでVRMに対応している。
@@ -305,31 +314,32 @@ WebGLライブラリの中で一番使われているライブラリ。
 利用条件が読み込めないので、自前サービスで使いたい場合は気を付けましょう。
 
 ==== FaceVTuber
-URL：@<href>{https://facevtuber.com/} @<br>{}
-作者：FaceVTuberOfficial @FaceVTuber @<br>{}
-プラットフォーム：web @<br>{}
+ * URL：@<href>{https://facevtuber.com/} 
+ * 作者：FaceVTuberOfficial @FaceVTuber 
+ * プラットフォーム：web 
 
 ブラウザ上で顔認識を行い顔追従を行うFaceRigのようなwebサービス。
 PMDやFBXと同様にVRMも読み込むことが可能。
 THREE.jsでさくっと読み込めるしせっかくだから付けたというおまけ感ある。
 
-==== VRM Three.js AR Sample
+==== VRM Three.js Samples
 
-URL：@<href>{https://twitter.com/t_takasaka/status/1036235629741260800} @<br>{}
-作者：高坂 @t_takasaka @<br>{}
+ * VRM Three.js AR Sample
+ * 作者：高坂 @t_takasaka 
+ * URL：@<href>{https://twitter.com/t_takasaka/status/1036235629741260800} 
 
 VRMをWebブラウザでAR表示させるサンプルです。
 
-==== VRM Three.js PoseNet Sample
-URL：@<href>{https://github.com/t-takasaka/vrm-three-posenet} @<br>{}
-作者：高坂 @t_takasaka @<br>{}
+ * VRM Three.js PoseNet Sample
+ * 作者：高坂 @t_takasaka 
+ * URL：@<href>{https://github.com/t-takasaka/vrm-three-posenet} 
 
 THREE.jsとPoseNetを使って動画からVRMにモーションを転写するサンプルコードです。
 
 ==== Teraconnect
 
-URL：@<href>{https://authoring.teraconnect.org/} @<br>{}
-開発元：Teraconnect @<br>{}
+ * 開発元：Teraconnect 
+ * URL：@<href>{https://authoring.teraconnect.org/} 
 
 ブラウザ上でアバターによるウェビナーを作ることが出来るウェブサービスです。
 スライド画像をアップロードしてスライドの操作をしながらトークを進めていくことで授業ができあがります。
