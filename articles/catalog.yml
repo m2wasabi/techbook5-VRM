@@ -4,12 +4,12 @@ PREDEF:
 CHAPS:
   - 01.introduction.re
   - 02.applications.re
-  - 03.create_model.re
-  - 04.create_application.re
-  - 05.extra.re
+  # - 03.create_model.re
+  # - 04.create_application.re
+  # - 05.extra.re
 
 APPENDIX:
 
 POSTDEF:
-  - 98.afterword.re
-  - 99.contributors.re
+  # - 98.afterword.re
+  # - 99.contributors.re
