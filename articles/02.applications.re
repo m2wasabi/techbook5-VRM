@@ -337,6 +337,20 @@ VRMモデルのプラットフォームです。VRMをアップロード、SDK�
 
 現在クローズドβ中のようなので、興味ある方は使ってみてはいかがでしょうか。
 
+=== LiveAvatar
+ * 作者：えむにわ @<href>{https://twitter.com/m2wasabi,@m2wasabi}
+ * URL：@<href>{https://github.com/m2wasabi/LiveAvatar}
+
+筆者の開発しているアプリです。2018年3月30日の明星和楽に出展されました。
+
+HTC Viveを使って、HMDなしで身振り手振りを演じることができるアプリで、現在VRM対応中です@<fn>{2.LiveAvatar.douga}。
+//footnote[2.LiveAvatar.douga][@<href>{https://www.youtube.com/watch?v=6xsGkaQ9_XI}]
+
+展示会やオフィスの受付けでの利用を想定して、すぐに始めてすぐに終われるコンセプトで作られています。
+またMITライセンスなので、自由に使えます。
+
+本書の執筆がなければ現時点で完成していたという説もあります…
+
 //pagebreak
 == Unity以外のプラットフォーム
 
