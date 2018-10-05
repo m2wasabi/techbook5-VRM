@@ -167,7 +167,8 @@ WindowsAPIを明確に使用しているので、Windows以外への移植は難
 //}
 
 === 3tene
- * 開発元：株式会社 プラスプラス 
+ * 開発元：株式会社 プラスプラス
+ * サポート： @3tene2
  * プラットフォーム：Windows 
  * URL：@<href>{https://3tene.com/} 
 
@@ -201,6 +202,7 @@ VRMを使ってそれぞれのコンテンツを楽しむアプリです。
 
 === Vワールド
  * 作者：NABY  @7u_NABY 
+ * サポート：@Vworld_official
  * プラットフォーム：Windows 
  * URL：@<href>{https://twitter.com/7u_NABY/status/1033699969289543682} 
 
