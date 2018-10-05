@@ -2,8 +2,6 @@
 
 VRMはオープンな仕様です。
 
-※カテゴリ内の順番はリリース日時順です。
-
 個人製作のアプリケーションは、公式サイトを持たず、Twitterなどでしれっと公開されているものが多く、
 全てを検索エンジンなどで探すのは難しくなっています。
 
@@ -11,6 +9,7 @@ VRツール一覧まとめwiki@<fn>{VRTOOLWIKI}にある程度書いてありま
 ご自身でアプリを公開された時などに宣伝がてら更新してみてもいいかもしれません。
 //footnote[VRTOOLWIKI][@<href>{http://pc-vr.game-info.wiki/}]
 
+なお、カテゴリ内の順番はリリース日時順です。
 
 == 2大つよつよアプリ
 
@@ -58,6 +57,7 @@ VRMの発表からいち早くアバターのVRM対応を行いました。
 VRライブのスタジオ部門を立ち上げようとしている@<fn>{2.cluster.studio}様子で、今後の動向が楽しみです。
 //footnote[2.cluster.studio][@<href>{https://twitter.com/c_c_kato/status/1039157616352448513}]
 
+//pagebreak
 == アバターメイカー
 
 //lead{
@@ -97,6 +97,7 @@ VRライブのスタジオ部門を立ち上げようとしている@<fn>{2.clus
 エクスポートされたVRMモデルは、髪やスカートに揺れものが入っていないので、揺らしたい場合は3Dモデリングツールでボーンの追加や設定が必要になります。
 //footnote[2.VRoid.springbone][参考記事：@<href>{https://aozoranositade.ape.jp/?p=1997}]
 
+//pagebreak
 == ビュワー
 
 //lead{
@@ -114,7 +115,7 @@ UniVRMの公式サンプルです。
 基本的なランタイムロードのやり方はほぼこのサンプルのコピペで導入することができます。
 
 
-==== ※付録
+==== 付録 - Daydream用VRMビュワー
 //quote{
 拙作のUniVRMのサンプルをDaydream用にコンパイルしたものを配布しています@<fn>{2.sample.download}。
 MirageSoloなどのDaydream端末をお持ちでしたら、VRMモデルをVRで見ることができます。
@@ -151,8 +152,8 @@ PCのウェブカメラから瞬きやリップシンクを取得することが
  * プラットフォーム：Windows, Android 
  * URL：@<href>{http://fantom1x.blog130.fc2.com/blog-entry-309.html} 
 
-UnityちゃんのCandyRockStarがデモで入っているVRMビュワーです。
-BVHインポート機能があったり、ビュワーの中ではもっとも高機能です。
+UnityちゃんのCandyRockStarが背景つきで入っているVRMビュワーです。
+BVHインポート機能があったり、ビュワーの中では高機能な部類です。
 Windows版とAndroid版があります。
 
 === VPocket
@@ -179,8 +180,11 @@ VRMモデルをARで表示させることができます。
 透過ウインドウに対応したVRMビュワーです。
 デスクトップマスコットアプリのスキャフォールディングを目指してそうなプロジェクトです。
 UniWinApi & Example projectというプロジェクトの一部です。
-WindowsAPIを明確に使用しているので、Windows以外への移植は難しそうです。
 
+WindowsAPIを明確に使用しているので、Windows以外への移植は難しそうですが、
+デスクトップマスコットとしての応用の幅は広く将来性に期待できます。
+
+//pagebreak
 == 動画配信用アプリ
 
 //lead{
@@ -196,6 +200,7 @@ WindowsAPIを明確に使用しているので、Windows以外への移植は難
 基本動作は、画面のミラーがウィンドウ内に表示され、マウスポインタをペンを持ったアバターが追いかけます。
 音声入力からのリップシンク、背景の変更、画面キャプチャ範囲の変更など、
 おおよそお絵描き配信に必要な機能は不足なく実装されています。
+
 個人製作のVRM対応アプリとしての完成度はトップクラスです。
 
 === バーチャルモーションキャプチャ―
@@ -206,8 +211,10 @@ WindowsAPIを明確に使用しているので、Windows以外への移植は難
 配信中画面にアバターの動きを合成するためのアプリです。
 これによってあたかも自分のアバターがゲーム内に入ったかのような映像が得られます。
 トラッカーを使った全身トラッキングに対応しているほか、トラッカーと追従部位を自由に設定できるので、頭にトラッカーを付けて視界をHMDに奪われず動きを演じるという使い方もできます。
+
 現在βながら、個人配信者に非常に人気の高いアプリです。
 
+//pagebreak
 == ゲームアプリ
 
 //lead{
@@ -223,11 +230,13 @@ VRMを使ってそれぞれのコンテンツを楽しむアプリです。
 自撮り＋ワールドクリエイションみたいなアプリです。
 VRMキャラで街のフィールドを歩き回ったり、オブジェクトを設置したりできます。
 光源の設定が細かく、スクリーンショットには独特の味があります。
+
 ワールドをシェアできるプラットフォームを開発中らしいです。
 また、VRoid Hub発表時に、個人勢で唯一API対応を謳っているアプリです。
-本書が出回る頃には具体的情報が出ている気がします。
-けもフレRPGの作者。
 
+本書が出回る頃には何らかの追加情報が出ている気がします。
+
+//pagebreak
 == ツール
 
 //lead{
@@ -240,11 +249,12 @@ VRMデータを作ったり応用するためのアプリです。
 
 個人開発の3Dモデリングツールです。
 ミニマル＆スタンダードな作りになっていて、基本的なモデリング機能はきれいにまとまっています。
-大仰な機能はないけど使いやすいです。
-現時点ではVRMの読み込みのみ対応しています。
+大仰な機能はありませんが、使いやすいです。
 
-@<href>{https://twitter.com/mqdl/status/1022747807646539776} @<br>{}
-@<href>{https://twitter.com/mqdl/status/1028796028563025921} @<br>{}
+現時点ではVRMの読み込みのみ対応しています@<fn>{2.xismo.1} @<fn>{2.xismo.2}。
+
+//footnote[2.xismo.1][@<href>{https://twitter.com/mqdl/status/1022747807646539776}]
+//footnote[2.xismo.2][@<href>{https://twitter.com/mqdl/status/1028796028563025921}]
 
 
 === VRM Converter for VRChat
@@ -253,7 +263,8 @@ VRMデータを作ったり応用するためのアプリです。
  * URL：@<href>{https://booth.pm/ja/items/1025226} 
 
 VRMのモデルをVRChatで利用できるアバターに変換できるツールセットです。
-VRChatのプレイヤーでVRMで作った
+
+VRChatのユーザーに特化したツールですが、面倒なリップシンクやまばたきの設定などを手軽に対応出来ていて便利です。
 
 
 === VRMtoPMXExporter
@@ -261,7 +272,10 @@ VRChatのプレイヤーでVRMで作った
  * プラットフォーム：Unity 
  * URL：@<href>{https://twitter.com/flammpfeil/status/1032266829597573121} 
 
+VRMをPMXに変換するツールです。
+VRMをMMDで動かしたい人には便利です。
 
+//pagebreak
 == 現在開発中のもの
 
 //lead{
@@ -274,6 +288,7 @@ VRChatのプレイヤーでVRMで作った
 
 なっつー氏は、個人で様々なアプリを作られている方です。
 『YOU ARE VTUBER!!』は過去に銀VRで展示、コミックマーケット94で頒布されました。
+
 PC用のVR HMDを用いてモーションキャプチャ―を行い、キャラクターを演じるアプリです。
 字幕台本や、モーションの遅延再生、スタンドアロンヘッドセットへの配信機能が特徴です。
 VRMは対応はアップデートで対応される雰囲気です。@<fn>{2.yashinut.1}
@@ -314,7 +329,15 @@ Unityを使った物理演算芸と昭和センスな女の子というギャッ
 バーチャルYouTuberのスズキセシルさんのアバターメイカーツールです。
 VRM形式のエクスポートに対応していて、髪の物理までついてるので今後の注目株です。
 
+=== VRP VRM Importer
+ * 作者：Yuzuka4573 @<href>{https://twitter.com/yuzuka4573,@yuzuka4573}
+ * URL：@<href>{https://www.pixiv.net/fanbox/creator/31349134}
 
+VRMモデルのプラットフォームです。VRMをアップロード、SDKを使ってVRMアバターをランタイムロードするようです。
+
+現在クローズドβ中のようなので、興味ある方は使ってみてはいかがでしょうか。
+
+//pagebreak
 == Unity以外のプラットフォーム
 
 //lead{
@@ -340,17 +363,16 @@ THREE.jsでさくっと読み込めるしせっかくだから付けたという
 
 ==== VRM Three.js Samples
 
- * VRM Three.js AR Sample
  * 作者：高坂 @<href>{https://twitter.com/t_takasaka,@t_takasaka} 
+ * VRM Three.js AR Sample
  * URL：@<href>{https://twitter.com/t_takasaka/status/1036235629741260800} 
 
 VRMをWebブラウザでAR表示させるサンプルです。
 
  * VRM Three.js PoseNet Sample
- * 作者：高坂 @<href>{https://twitter.com/t_takasaka,@t_takasaka} 
  * URL：@<href>{https://github.com/t-takasaka/vrm-three-posenet} 
 
-THREE.jsとPoseNetを使って動画からVRMにモーションを転写するサンプルコードです。
+THREE.jsとPoseNetを使って動画からVRMにモーションを転写するサンプルです。
 
 ==== Teraconnect
 
@@ -361,6 +383,17 @@ THREE.jsとPoseNetを使って動画からVRMにモーションを転写する�
 スライド画像をアップロードしてスライドの操作をしながらトークを進めていくことで授業ができあがります。
 音声から文字起こしや、アバターの口パクが行われます。
 現在はβ運用中で、授業が10日で自動的に消えてしまいます。
+
+=== blender
+
+==== VRM Importer(blender)
+ * 作者：あいす @<href>{https://twitter.com/icyp,@icyp} 
+ * URL：@<href>{https://github.com/iCyP/VRM_IMPORTER} 
+
+VRMをblenderで読み込むプラグインです。
+現時点で、あくまで「それっぽく」インポートするツールなので、物理やメタ情報を含む相互変換までは行かないようです。
+今後のアップデートに期待しましょう。
+
 
 === UnrealEngine4 での VRMランタイム
 
