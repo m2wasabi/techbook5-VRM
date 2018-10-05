@@ -124,7 +124,7 @@ VRMをロードしてUnityちゃんのモーションを確認できるます。
 
 === VRM Live Viewer
 
- * 作者：ヽ｜∵｜ゝ(Fantom) 
+ * 作者：ヽ｜∵｜ゝ(Fantom) @fantom_1x
  * プラットフォーム：Windows, Android 
  * URL：@<href>{http://fantom1x.blog130.fc2.com/blog-entry-309.html} 
 
@@ -232,7 +232,7 @@ VRMデータを作ったり応用するためのアプリです。
 
 
 === VRM Converter for VRChat
- * 作者：ぽけもり  
+ * 作者：100の人 @esperecyan
  * プラットフォーム：Unity 
  * URL：@<href>{https://booth.pm/ja/items/1025226} 
 
@@ -291,7 +291,7 @@ OculusGoでプレゼンテーションを録画するシステムを開発中で
 VRMモデルのキャラクターがマウスカーソルを追従するデスクトップマスコットです。
 
 === セシル変身（仮）アプリ
- * 作者：スズキセシル
+ * 作者：スズキセシル @Cecil_Channel
  * 情報ソース：@<href>{https://twitter.com/Cecil_Channel/status/1047124416939741184}
 
 Unityを使った物理演算芸と昭和センスな女の子というギャップが面白い
