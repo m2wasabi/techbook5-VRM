@@ -4,15 +4,15 @@ PREDEF:
 CHAPS:
   - 01.introduction.re
   - 02.applications.re
-  - 03.create_model_yokoku.re
-  - 04.create_application_yokoku.re
-  - 05.extra_yokoku.re
-  # - 03.create_model.re
-  # - 04.create_application.re
-  # - 05.extra.re
+  # - 03.create_model_yokoku.re
+  # - 04.create_application_yokoku.re
+  # - 05.extra_yokoku.re
+  - 03.create_model.re
+  - 04.create_application.re
+  - 05.extra.re
 
 APPENDIX:
 
 POSTDEF:
   # - 98.afterword.re
-  # - 99.contributors.re
+  - 99.contributors.re
