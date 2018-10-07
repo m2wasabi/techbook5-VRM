@@ -296,9 +296,11 @@ VRMは対応はアップデートで対応される雰囲気です。@<fn>{2.yas
 アプリを入手する機会が非常に限られていますが、イベントなどで入手した人は楽しみにアップデートを待ちましょう。
 
 他にも、アバターとの思い出をねつ造する『想い出メーカー@<fn>{2.yashinut.2}』や、
-キャラクターに疑似言語でスピーチさせる『謎言語合成音声システム（仮）@<fn>{2.yashinut.3}』などのVRM対応アプリのプロトタイプを多数作成されているので、今後が楽しみです。
+キャラクターに疑似言語でスピーチさせる『謎言語合成音声システム（仮）@<fn>{2.yashinut.3}』などのVRM対応アプリのプロトタイプを多数作成されています。
+『VRMスタンプ生成アプリ@<fn>{2.yashinut.4}』が今にもリリースされそうです。ストア公開が待ち遠しいですね。
 //footnote[2.yashinut.2][@<href>{https://twitter.com/yashinut/status/1041704626930634753}]
 //footnote[2.yashinut.3][@<href>{https://twitter.com/yashinut/status/1044206458596810752}]
+//footnote[2.yashinut.4][@<href>{https://twitter.com/yashinut/status/1048919846728036352}]
 
 === karukaruとXX
  * 作者：karukaru @<href>{https://twitter.com/_karukaru_,@_karukaru_} 
