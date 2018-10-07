@@ -32,6 +32,14 @@
  ** URL：@<href>{http://3d.nicovideo.jp/alicia/rule.html}
  ** ライセンス：@<href>{http://3d.nicovideo.jp/alicia/rule.html}
 
+ * アークトラス
+ ** 作者：あいんつ @<href>{https://twitter.com/einz_zwei,@einz_twei}
+ ** URL：@<href>{http://www.melonbooks.com/index.php?main_page=product_info&products_id=IT0000204181}
+
+ * 社畜ちゃん
+ ** 作者：ビタワン @<href>{https://twitter.com/vitaone_,@vitaone_}
+ ** URL：@<href>{http://3d.nicovideo.jp/works/td35849}
+
 == 電子版のご案内
 
 本書は、アップデートに対応した電子版で頒布しております。
