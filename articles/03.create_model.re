@@ -1,11 +1,14 @@
-= VRMモデルのセットアップ
+= VRMモデルの制作ワークフロー
+
+
+== VRMモデルのセットアップ
 
 この章ではFBXモデルからVRMモデルのコンバート・調整の手順を解説していきます。
 内容的には弊ブログの記事@<fn>{3.link.blogkiji}に、SpringBoneやモデルの調整を追加したものになります。
 
 //footnote[3.link.blogkiji][@<href>{https://m2wasabi.hatenablog.com/entry/2018/06/26/122557}]
 
-== アバターを手にするまで
+=== アバターを手にするまで
 
 VR空間に着ていくアバターをすべての人が自作出来ればいいのですが、モデリングは人類の基本スキルではないようです。
 モデルを自作できない人は人様のモデルを拝借するわけですが、心して、以下の点は絶対に気を付けましょう。
@@ -32,7 +35,7 @@ VR空間に着ていくアバターをすべての人が自作出来ればいい
 
 そして何よりも価格がお手頃（1080円）というところです。
 
-== プロジェクトを用意する
+=== プロジェクトを用意する
 
 バーチャルキャストや自作のアプリで動かしたい場合は、特に何も考えずVRMのドキュメントに従えばセットアップ可能です。
 以下、モデルに依存した細かい部分について説明します。
@@ -40,12 +43,12 @@ VR空間に着ていくアバターをすべての人が自作出来ればいい
 まずはUnityで新規プロジェクトを作成し、UniVRM@<fn>{3.univrm}をインポートします。
 //footnote[3.univrm][UniVRM：@<href>{https://github.com/dwango/UniVRM/releases}]
 
-== FBXデータの読み込み
+=== FBXデータの読み込み
 
 Asset内の適当なフォルダにfbxをインポートしましょう。
 //image[u001][FBXのインポート][scale=0.5]
 
-== VRM用のマテリアルを作成する
+=== VRM用のマテリアルを作成する
 
 アークトラスちゃんのマテリアルはユニティちゃんトゥーンシェーダ2でセットアップされています。
 自作のアプリなどで、対応するシェーダを先に読み込ませておけば、何も考えずにVRM化して無事読み込めるのですが、
@@ -82,7 +85,7 @@ Head	FFFFFF	FFE5C4	000000
 Main	FFFFFF	E5D89E	000000
 //}
 
-== 最初のVRMエクスポート
+=== 最初のVRMエクスポート
 
 VRMのマテリアルを適用したモデルをVRMに変換します。  
 
@@ -108,85 +111,135 @@ Hierarchy上のモデルを選択した状態で、エディタのメニュー�
 
 //image[u010-2][マテリアル Normai Mapの変更][scale=0.5]
 
-== META情報の登録
-
-== SpringBoneの調整
-
-
-
-
-### メタ情報を入力する
+=== META情報の登録
 
 変換したVRMのprefabをHieralchyに展開しましょう。  
 
-[f:id:m2wasabi:20180626111308p:plain]
+//image[u013][VRMをHierarchyに展開する]
 
-VRM Metaというスクリプトに、名前、作者情報、アバターの使用許諾条件などを記述しましょう。  
-**Reference** の項目でサムネイル画像を設定できるのですが、楽するために下のプレビューから画像を切り取って貼ってしまいました。  
+VRM Metaというスクリプトに、名前、作者情報、アバターの使用許諾条件などを記述しましょう。
+@<b>{Reference} の項目でサムネイル画像を設定できるのですが、楽するためにInspectorのプレビューから画像を切り取って貼ってしまいました。
 
-[f:id:m2wasabi:20180626111317p:plain]
+//image[u014][META情報を設定する][scale=0.5]
 
-### ファーストパーソンの時の描画設定
+=== ファーストパーソンの時の描画設定
 
-モデルによってはアバターにVRで入ったときに視界が顔の裏側で邪魔される場合があります。  
-そんなときに顔の描画を消す処理を定義します。  
-アークトラスちゃんの場合、腕輪がコントローラーの邪魔になるので、ファーストパーソンの時は腕輪も消えるように設定します。  
+モデルによってはアバターにVRで入ったときに視界が顔の裏側で邪魔される場合があります。
+そんなときに顔の描画を消す処理を定義します。
+アークトラスちゃんの場合、主観で見ると腕輪が視界の邪魔になるので、ファーストパーソンの時は腕輪も消えるように設定します。
 
-[f:id:m2wasabi:20180626051808p:plain]
+//image[u015][VRM First Person の設定][scale=0.5]
 
-### 表情をつける
+=== 表情をつける
 
 VRM BlenｄShape Ploxyコンポーネントから Blend Shape Avatar をダブルクリックして  
 BlendShapeEditorを開いて表情を定義していきます。  
 
-[f:id:m2wasabi:20180626051851p:plain]
+//image[u016][VRM BlenｄShape Ploxy][scale=0.5]
+//image[u017][BlendShapeEditor][scale=0.5]
 
-[f:id:m2wasabi:20180626051909p:plain]
+=== 目の動きを設定する
 
-### 目の動きをBlendShapeで行う
+目の動きは、モデルによってBoneが割り当てられていたり、BlendShapeで動かす場合があります。
+Boneで割り当てられている場合、Humanoidの設定で適切にボーンをせっていしておけば、特に特にすることはありません。
+しかし、目の動きがBlendShapeで割り当てられている場合は、@<b>{VRM Look At Applyer}の差し替えが必要になります。
 
-アークトラスちゃんは瞳の動きをBlendShapeで定義しているので、  
-`VRM Look At Bone Appluer` を `VRM Look At Blend Shape Appluer` に差し替えます。   
 
-VRM Look At Blend Shape Appluer を読み込んで  
-[f:id:m2wasabi:20180626052014p:plain]
+==== 目の動きがBlendShapeの場合
 
-VRM Look At Bone Appluer を削除します  
-[f:id:m2wasabi:20180626052030p:plain]
+アークトラスちゃんは瞳の動きをBlendShapeで定義しているので、
+VRMコンポーネント内の @<b>{VRM Look At Bone Applyer} を @<b>{VRM Look At Blend Shape Appluer} に差し替えます。
 
-### 2回目のVRMコンバート(仕上げ)
+//image[u020][VRM Look At Blend Shape Applyer の登録][scale=0.5]
+//image[u021][VRM Look At Bone Applyer の削除][scale=0.5]
+
+=== SpringBoneの調整
+
+#@warn(後で書く)
+
+=== 2回目のVRMエクスポート（仕上げ）
 
 セットアップが完了したので、VRMのprefabをApplyし、再度VRMエクスポートを実行します。
+任意の場所にVRMを吐き出しましょう。
 
-[f:id:m2wasabi:20180626111424p:plain]
+//image[u019][仕上げのVRMエクスポート][scale=0.5]
 
-### ビュアーで見てみよう
+=== ビュアーで見てみよう
 
 VRMのサンプルプロジェクトに、VRMキャラクターのビュワーがあるので  
 インポートして実行してみましょう。  
 
-`UniVRM-RuntimeLoaderSample-0.38.unitypackage` をプロジェクトに展開し、  
+@<b>{UniVRM-RuntimeLoaderSample} @<fn>{3.univrm}をプロジェクトに展開し、  
 シーン `VRMViewer` を読み込んで実行します。  
 
-[f:id:m2wasabi:20180626052257p:plain]
+//image[u022][UniVRM-RuntimeLoaderSample のインポート][scale=0.5]
 
-動いた！  
+//image[u023_2][VRMViewer を動かして読み込む]
 
-[f:id:m2wasabi:20180626113003p:plain]
+動いた！完成です！
 
-### バーチャルキャストで連携する
+=== バーチャルキャストで連携する
 
 これでニコニ立体にアップすれば、バーチャルキャストに連携することもできます。  
 再配布が禁じられているモデルの場合、アップロードして下書きのまま運用すれば、  
 ニコニ立体の一覧に表示されないので、活用しましょう。  
 
-[f:id:m2wasabi:20180626105939p:plain:w300][f:id:m2wasabi:20180626105947p:plain:w300]
+//image[n001][ニコニ立体へのアップ][scale=0.5]
+//image[n002][下書き運用で非公開][scale=0.5]
+
+バーチャルキャストでのニコニ立体モデルの使用方法は、以下を参照ください。  
+
+@<href>{https://www.infiniteloop.co.jp/blog/2018/04/virtualcast-matsui/}
 
 
-バーチャルキャストの設定方法は、以下を参照ください。  
+== 応用編：様々なプラットフォームで使うために
 
-[https://www.infiniteloop.co.jp/blog/2018/04/virtualcast-matsui/:embed:cite]
+=== Unityとblenderの往復
 
+アプリで利用する際に、アップロードできるモデルに何らかの制限が掛かっている場合があります。
+その対応をするには、Unity外のモデリングツール（Maya, blenderなど）で編集して再インポートする必要があります。
+Unityで利用するモデルに編集を加えて、再びUnityに戻す作業は、注意する点を知らないと嵌りがちです。
+ここでは、blenderを例に挙げてモデルの編集とUnityへ戻すことを見ていきます。
+
+==== 編集の基本：Unity用FBXからblenderへ
+
+blederでfbxを読み込ませます。  
+設定はこんな感じで。  
+
+[f:id:m2wasabi:20180626083752p:plain:w250][f:id:m2wasabi:20180626083808p:plain:w250]
+
+軸設定が大事で、以下のように設定します。  
+Main が `-Z Forward` , `Y Up`  
+Armatures が `Primary Y Axis`, `Secondary X Axis`  
+
+==== 編集の基本：blenderからUnity用FBXへ
+
+==== 編集の基本：FBXのインポートとHumanoid
+
+=== 容量削減：首から上のオブジェクトを分離する
+
+=== 容量削減：テクスチャを圧縮する
+
+=== 制約対策：ポリゴン数の削減
+
+=== 制約対策：マテリアル数の削減
+
+=== 制約対策：ボーン数追加・削除
+
+・VRoidで生成したVRMで髪を揺らしたい
+VRoidのモデルは髪型を自由に作れますが、ボーンは入っていません。
+髪を揺らしたい場合、髪型に対応したボーンを追加し、ウェイトを設定しなければいけません。
+
+・ボーン数がアプリケーションの制限を超えたとき
+登録されるVRMファイルにボーン数の制限があるアプリケーション
+例えばclustar
+
+参考
+VRoidモデルの髪を揺らしてみたい！（前編）
+https://aozoranositade.ape.jp/?p=1997
+
+
+～～～～～～～～～～～～～～～～～～～～～～
 ## cluster.対応 VRMセットアップ
 
 アークトラスちゃんの真価は、制限に強いところだと言えます。  
@@ -234,14 +287,9 @@ cluster. SDK の推奨バージョンは **Unity 2017.4** です。
 
 ### blenderでメッシュを統合する
 
-blederでfbxを読み込ませます。  
-設定はこんな感じで。  
 
-[f:id:m2wasabi:20180626083752p:plain:w250][f:id:m2wasabi:20180626083808p:plain:w250]
 
-軸設定が大事で、以下のように設定します。  
-Main が `-Z Forward` , `Y Up`  
-Armatures が `Primary Y Axis`, `Secondary X Axis`  
+
 
 cluster.の基準に入るには  
 メッシュを一つ統合すれば済みます。  
@@ -336,36 +384,4 @@ Hierarchy上のPrefabをVRMに変換します。
 [f:id:m2wasabi:20180626121040p:plain]
 
 
-== 応用編：様々なプラットフォームで使うために
 
-=== Unityとblenderの往復
-
-Unityで利用するモデルに編集を加えて、再びUnityに戻す作業は、注意する点を知らないと嵌りがちです。
-
-==== 編集の基本：Unity用FBXからblenderへ
-
-==== 編集の基本：blenderからUnity用FBXへ
-
-==== 編集の基本：FBXのインポートとHumanoid
-
-=== 容量削減：首から上のオブジェクトを分離する
-
-=== 容量削減：テクスチャを圧縮する
-
-=== 制約対策：ポリゴン数の削減
-
-=== 制約対策：マテリアル数の削減
-
-=== 制約対策：ボーン数追加・削除
-
-・VRoidで生成したVRMで髪を揺らしたい
-VRoidのモデルは髪型を自由に作れますが、ボーンは入っていません。
-髪を揺らしたい場合、髪型に対応したボーンを追加し、ウェイトを設定しなければいけません。
-
-・ボーン数がアプリケーションの制限を超えたとき
-登録されるVRMファイルにボーン数の制限があるアプリケーション
-例えばclustar
-
-参考
-VRoidモデルの髪を揺らしてみたい！（前編）
-https://aozoranositade.ape.jp/?p=1997
