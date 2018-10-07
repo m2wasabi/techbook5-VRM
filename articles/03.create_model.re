@@ -155,7 +155,56 @@ VRMコンポーネント内の @<b>{VRM Look At Bone Applyer} を @<b>{VRM Look 
 
 === SpringBoneの調整
 
-#@warn(後で書く)
+VRMの揺れ物は、@<b>{VRMSpringBone}で定義されます。
+@<b>{VRMSpringBone}は、VRMオブジェクトの下の secondary というオブジェクトに付いています。
+
+//image[u033][VRMSpringBone][scale=0.5]
+
+VRMSpringBoneのプロパティは次のようになっています。
+
+//table[VRMSpringBone][VRMSpringBoneのプロパティ]{ 
+name	説明
+------------------
+Gizmo	当たり判定をSceneに表示する設定。挙動のデバッグ用
+Stiffness Force	剛性。高いほど動きにくい
+Gravity Power	重力の強さ。今のVRMに1は強すぎる
+Drag Force	抗力。摩擦係数ともいわれる。高いとすぐに減衰する
+Root Bones	SprngBoneの根っこ。ここから末端に向けての全てのボーンが揺れる。複数指定可能
+Hit Radius	SpringBoneの当たり判定の半径
+Colider Groups	このSpringBoneで扱うコライダーリスト
+//}
+
+一つの@<b>{VRMSpringBone}に全ての揺れものが入っていると、揺れの属性はすべて同じになってしまいます。
+VRMは、単一のsecondaryに、複数の@<b>{VRMSpringBone}コンポーネントを定義することができます。
+揺れの属性が異なる揺れ物は、別々のコンポーネントに格納して、バリエーションを持たせることができます。
+
+==== 揺れ物を付けてみる
+
+早速、揺れものを付けてみましょう。
+アークトラスちゃんの揺れそうな部位は、ポニーテールだけです。
+
+トランスフォーム ponite_root を Root Bones に入れてみましょう。
+
+//image[u034][Root Bonesをセット][scale=0.5]
+
+//image[u035][揺れ物のテスト][scale=0.3]
+
+簡単にセットできました。
+
+==== コライダーを付けてみる
+
+このままでもいいのですが、後ろに下がるときに、ポニーテールが頭にめり込んでしまいます。
+そこで、頭にコライダーを設置してめり込みを防ぎましょう。
+
+トランスフォーム head_j に @<b>{VRMSpringBoneColliderGroup} コンポーネントを追加します。
+
+//image[u036][VRMSpringBoneColliderGroup][scale=0.5]
+
+VRMSpringBoneColliderGroup は、コンポーネントの中に複数の球状の Collider を定義できます。
+Colliderは@<b>{Offset}で位置を、@<b>{Radius}で当たり判定の径を定義できます。
+たくさんつなげれば疑似的に棒状の当たり判定にすることも可能です。
+
+//image[u037][VRMSpringBoneColliderGroup をセット][scale=0.5]
 
 === 2回目のVRMエクスポート（仕上げ）
 
