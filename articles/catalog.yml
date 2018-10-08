@@ -14,5 +14,5 @@ CHAPS:
 APPENDIX:
 
 POSTDEF:
-  # - 98.afterword.re
+  - 98.afterword.re
   - 99.contributors.re

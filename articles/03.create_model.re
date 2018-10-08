@@ -17,10 +17,11 @@ VR空間に着ていくアバターをすべての人が自作出来ればいい
 
 守れないと金銭的被害や創作ライフ終了に繋がるので、冗談では済まされません。
 
-今回チュートリアルで用いるのは、あいんつさん（@<href>{https://twitter.com/einz_zwei,@einz_twei}）のアークトラスちゃん@<fn>{3.avatar.arctrus}です。  
+今回チュートリアルで用いるのは、あいんつさん@<fn>{3.twitter.einz}のアークトラスちゃん@<fn>{3.avatar.arctrus}です。  
 
 //image[shop_flyer][アークトラス（ショップのフライヤーより）][scale=0.5]
 
+//footnote[3.twitter.einz][@<href>{https://twitter.com/einz_zwei,@einz_twei}]
 //footnote[3.avatar.arctrus][@<href>{http://www.melonbooks.com/index.php?main_page=product_info&products_id=IT0000204181}]
 
 アークトラスちゃんは以下の点でVRMのチュートリアルを行うのに適しています。  
