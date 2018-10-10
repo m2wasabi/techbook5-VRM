@@ -214,6 +214,16 @@ WindowsAPIを明確に使用しているので、Windows以外への移植は難
 
 現在βながら、個人配信者に非常に人気の高いアプリです。
 
+=== SlidesGo
+ * 作者：やのせん @<href>{https://twitter.com/yanosen_jp,@yanosen_jp} 
+ * プラットフォーム：OculusGo 
+ * URL：@<href>{https://twitter.com/yanosen_jp/status/1049518493417136128} 
+
+OculusGoでプレゼンテーションを録画するシステムです。
+
+完成すればアバターによるウェビナーが急激に民主化するのではないでしょうか。
+現在αテスター募集中で、もうすぐリリースされる雰囲気です。楽しみに待ちましょう。
+
 //pagebreak
 == ゲームアプリ
 
@@ -235,6 +245,23 @@ VRMキャラで街のフィールドを歩き回ったり、オブジェクト�
 また、VRoid Hub発表時に、個人勢で唯一API対応を謳っているアプリです。
 
 本書が出回る頃には何らかの追加情報が出ている気がします。
+
+//pagebreak
+== コミュニケーションアプリ
+
+//lead{
+VRMを使ってコミュニケーションを助けるアプリです。
+//}
+
+=== Vスタンプ
+
+ * 作者：なっつー @<href>{https://twitter.com/yashinut,@yashinut} 
+ * プラットフォーム：@<href>{https://play.google.com/store/apps/details?id=com.yashinut.vstamp,Android} 
+ * URL：@<href>{https://www.youtube.com/watch?v=hMX-nGsKFlc} 
+
+VRMスタンプ生成アプリ@<fn>{2.yashinut.4}です。台詞とポーズを組み合わせてSNSで使えるスタンプを生成します。
+ポーズ・背景などのバリエーションや、台詞の変更など、出来ることの幅が広がればもっと個性が出せるので、今後の機能拡張に期待です。
+//footnote[2.yashinut.4][@<href>{https://twitter.com/yashinut/status/1049672583832981504}]
 
 //pagebreak
 == ツール
@@ -295,12 +322,8 @@ VRMは対応はアップデートで対応される雰囲気です。@<fn>{2.yas
 //footnote[2.yashinut.1][@<href>{https://twitter.com/yashinut/status/1022881662550458368}]
 アプリを入手する機会が非常に限られていますが、イベントなどで入手した人は楽しみにアップデートを待ちましょう。
 
-他にも、アバターとの思い出をねつ造する『想い出メーカー@<fn>{2.yashinut.2}』や、
-キャラクターに疑似言語でスピーチさせる『謎言語合成音声システム（仮）@<fn>{2.yashinut.3}』などのVRM対応アプリのプロトタイプを多数作成されています。
-『VRMスタンプ生成アプリ@<fn>{2.yashinut.4}』が今にもリリースされそうです。ストア公開が待ち遠しいですね。
-//footnote[2.yashinut.2][@<href>{https://twitter.com/yashinut/status/1041704626930634753}]
+他にも、キャラクターに疑似言語でスピーチさせる『謎言語合成音声システム（仮）@<fn>{2.yashinut.3}』などのVRM対応アプリのプロトタイプを多数作成されています。
 //footnote[2.yashinut.3][@<href>{https://twitter.com/yashinut/status/1044206458596810752}]
-//footnote[2.yashinut.4][@<href>{https://twitter.com/yashinut/status/1048919846728036352}]
 
 === karukaruとXX
  * 作者：karukaru @<href>{https://twitter.com/_karukaru_,@_karukaru_} 
@@ -308,14 +331,6 @@ VRMは対応はアップデートで対応される雰囲気です。@<fn>{2.yas
 
 ニコ生のコミュニティでVR空間を共有するアプリケーションやミニゲームを開発されています。
 生放送の時限定で使えるアプリなどもあります。生放送時か正式リリースを待ちましょう。
-
-=== BabiSenGO
- * 作者：やのせん @<href>{https://twitter.com/yanosen_jp,@yanosen_jp} 
- * プラットフォーム：OculusGo 
- * URL：@<href>{https://twitter.com/yanosen_jp/status/1041484658905571328} 
-
-OculusGoでプレゼンテーションを録画するシステムを開発中です。
-完成すればアバターによるウェビナーが急激に民主化するのではないでしょうか。
 
 === Vカーソル
  * 作者：えもこ @<href>{https://twitter.com/emoco_art,@emoco_art} 
@@ -426,3 +441,10 @@ UnrialEngineでVRMを動かす試みについて、
 など、ランタイムロードするまではまだまだ道は長そうです。
 
 UnrialEngineの開発元であるEpicGamesが公式でglTFへの対応予定を謳っていますので、それを待ちましょう。
+
+==== VRM4U
+
+ * 作者：Harube（ruyo）
+ * URL：@<href>{https://github.com/ruyo/VRM4U/wiki/VRM4U} 
+
+待望のUE4対応のVRMローダーのプロジェクトです。まだ開発中のようですが、UE4ユーザーの救世主となりうるか、今後に期待です。
