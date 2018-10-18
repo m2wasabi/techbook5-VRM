@@ -354,6 +354,15 @@ VRMモデルのプラットフォームです。VRMをアップロード、SDK�
 
 現在クローズドβ中のようなので、興味ある方は使ってみてはいかがでしょうか。
 
+=== DesktopMaskot4VRM
+ * 作者：keel
+ * URL：@<href>{https://github.com/keel-210/DesktopMaskot4VRM}
+
+オープンソースのデスクトップマスコットです。
+UnityEditor上でシナリオを編集し、アニメーションを設定したり、実行ファイル連携ができたりするようです。
+活動報告はニコニコ動画で行われるようです。@<fn>{2.DesktopMaskot4VRM.3}
+//footnote[2.DesktopMaskot4VRM.3][@<href>{https://www.nicovideo.jp/watch/sm33867534}]
+
 === LiveAvatar
  * 作者：えむにわ @<href>{https://twitter.com/m2wasabi,@m2wasabi}
  * URL：@<href>{https://github.com/m2wasabi/LiveAvatar}
