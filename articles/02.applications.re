@@ -290,6 +290,16 @@ VRMスタンプ生成アプリ@<fn>{2.yashinut.4}です。台詞とポーズを�
 ポーズ・背景などのバリエーションや、台詞の変更など、出来ることの幅が広がればもっと個性が出せるので、今後の機能拡張に期待です。
 //footnote[2.yashinut.4][@<href>{https://twitter.com/yashinut/status/1049672583832981504}]
 
+=== ヤバサムネジェネレーター
+
+ * 作者：避雷 @<href>{https://twitter.com/lucknknock,@lucknknock} 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://nanakorobi-hi.booth.pm/items/1173968} 
+
+治安の悪いYouTube界隈で流行っている、攻撃的な発言をダサフォントに乗せた無音動画のサムネイルを作成できます。
+実際のコンテンツは小汚いおっさんのヨリ画像が多いのですが、VRMはかわいいキャラが多いのでMP削られることはなさそうです。
+アプリの持つポテンシャルは高いので、願わくば積極的に平和利用していきたいところです。
+
 //pagebreak
 == ツール
 
@@ -468,3 +478,14 @@ VRMをblenderで読み込むプラグインです。
 待望のUE4対応のVRMローダーのプロジェクトです。
 動的ロードに対応し、基本的なモデルの読み込みに対応しています。
 現在も更新中で、日々クオリティが上がっています。そろそろ使用事例が出てきても良いと思います！
+
+=== C++
+
+==== MocuMocuDance
+
+ * 作者：妹尾雄大  @<href>{https://twitter.com/senooyudai,@senooyudai} 
+ * URL：@<href>{http://www.vrai.jp/vr_mocu.html} 
+
+OculusDK2時代からなのでかなり昔からあるVRアプリです。
+本来はMMDのVRビュワーですが、このたびVRMに対応されたようです。
+ネイティブアプリならではの苦労があるようです。
