@@ -8,23 +8,36 @@ UnityでVRM対応アプリケーションを作るには、VRMのアクティブ
 VRMファイルのアクティブロードについて、ベストプラクティスはとりすーぷ氏が開墾済みです。@<fn>{5.qiita.tori}
 //footnote[5.qiita.tori][@<href>{https://qiita.com/toRisouP/items/7d2c57d7d160f375e2d8}]
 
-//list[load_vrm][UniRxを使ったtoRisouP氏のサンプル（転記）]{
+では、最もシンプルなVRMモデルロードを見てみましょう。
+
+//list[load_vrm][UniRxを使ったtoRisouP氏のサンプル]{
 async void Start()
 {
+    // VRMファイルを選択、メモリに読み込む(プラットフォーム依存)
     var path = Application.streamingAssetsPath + "/" + "AliciaSolid.vrm";
     var www = new WWW(path);
     await www;
+
+    // 読み込んだバイトデータをパースしてVRMモデルのGameObjectを受け取る
     var go = await VRMImporter.LoadVrmAsync(www.bytes);
     go.transform.position = new Vector3(1, 1, 1);
 }
 //}
 
-自作アプリに組み込む場合は、
-ここに記載されていない、プラットフォームごとの処理は自作する必要があります。
+ファイルの内容をメモリに格納するためのプラットフォームごとの処理は、自作する必要があります。
+自作アプリに組み込む場合は、ここの作り込みが味噌になるでしょう。
 
  * ファイルを選ぶ
  * ファイルを開く
  * Meta情報を読み込み、ユーザーに確認させる
+
+完成品の参考として、手前味噌で恐縮ですが、実際の稼働サンプルは筆者作成のVRMLoaderUIを参照ください。@<fn>{4.github.loaderui}
+//footnote[4.github.loaderui][@<href>{https://github.com/m2wasabi/VRMLoaderUI}]
+
+=== VRMのメタ情報の読み込み
+
+VRMモデルをシーンに登場させる前に、読み込むモデルの名前やサムネイルを表示させたい場合、VRMのメタ情報を参照します。
+VRMのメタ情報は、バイナリ形式のglTFファイル(*.glb)のパースと同じ方法で読み込み可能です。
 
 //list[load_vrm2][Meta情報を読み込むサンプル]{
 async void Start()
