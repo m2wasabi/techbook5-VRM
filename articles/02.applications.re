@@ -99,6 +99,7 @@ VRライブのスタジオ部門を立ち上げようとしている@<fn>{2.clus
 
 === セシル変身アプリ
  * 作者：スズキセシル @<href>{https://twitter.com/Cecil_Channel,@Cecil_Channel}
+ * 公式Twitter：@<href>{https://twitter.com/CecilProject,@CecilProject}
  * URL：@<href>{https://fantia.jp/fanclubs/10552}
 
 Unityを使った物理演算芸と昭和センスな女の子というギャップが面白い
@@ -245,6 +246,15 @@ SHOWROOMさんが作った配信アプリです。
 様々なキャラクターになりきってSHOWROOMのプラットフォームで動画配信できます。
 VRoidHubと連携することにより、任意のVRMモデルで配信することができます。
 
+=== Clarie
+ * 作者：sakano  @<href>{https://twitter.com/vtuber_watch,@vtuber_watch} 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://biscrat.booth.pm/items/1193414} 
+
+VRで使う動画撮影用アプリです。
+VR空間をスタジオのように利用します。
+アルファ版ですが、今後に期待です。
+
 //pagebreak
 == ゲームアプリ
 
@@ -283,7 +293,7 @@ VRMを使ってコミュニケーションを助けるアプリです。
 === Vスタンプ
 
  * 作者：なっつー @<href>{https://twitter.com/yashinut,@yashinut} 
- * プラットフォーム：@<href>{https://play.google.com/store/apps/details?id=com.yashinut.vstamp,Android} 
+ * プラットフォーム：@<href>{https://play.google.com/store/apps/details?id=com.yashinut.vstamp,Android} @<href>{https://itunes.apple.com/us/app/v%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97/id1446174458?mt=8,iOS}
  * URL：@<href>{https://www.youtube.com/watch?v=hMX-nGsKFlc} 
 
 VRMスタンプ生成アプリ@<fn>{2.yashinut.4}です。台詞とポーズを組み合わせてSNSで使えるスタンプを生成します。
