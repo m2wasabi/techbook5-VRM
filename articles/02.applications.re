@@ -197,6 +197,25 @@ UniWinApi & Example projectというプロジェクトの一部です。
 WindowsAPIを明確に使用しているので、Windows以外への移植は難しそうですが、
 デスクトップマスコットとしての応用の幅は広く将来性に期待できます。
 
+=== V connect
+ * 作者：Kouuuki 
+ * プラットフォーム：@<href>{https://itunes.apple.com/jp/app/v-connect/id1450810229,iOS} 
+
+iOS用のVRMビュアーです。
+VRMでキャラクターを呼び出し、既定のモーションでポーズを取らせることができます。
+ARモードで、カメラの視界から平面検出を行い、任意の平面に立たせることができます。
+平面は天井でも壁でもモニターでも（！）大丈夫です。
+
+=== Vismuth
+ * 作者：t5ujiri @<href>{https://twitter.com/t5ujiri,@t5ujiri} 
+ * プラットフォーム： @<href>{https://play.google.com/store/apps/details?id=jp.co.gatari.mobilevrm.dev,Android}
+ * URL：@<href>{https://vismuth.net/index.html} 
+
+Android,iOS用のAR・VRMビュアーです。
+任意のVRMを使用するには、ユーザー登録をしなければできません。
+平面検出でモデルを設置します。設置するにはある程度の広さの平面が必要です。
+カメラフィルターで様々なエフェクトを掛けれるのが特徴です。
+
 //pagebreak
 == 動画配信用アプリ
 
@@ -501,3 +520,14 @@ VRMをblenderで読み込むプラグインです。
 OculusDK2時代からなのでかなり昔からあるVRアプリです。
 本来はMMDのVRビュワーですが、このたびVRMに対応されたようです。
 ネイティブアプリならではの苦労があるようです。
+
+=== MacOSX
+
+==== VRMPreview
+ * 作者：magicien @<href>{https://twitter.com/magicien_ballon,@magicien_ballon} 
+ * プラットフォーム：MacOS
+ * URL：@<href>{https://github.com/magicien/VRMPreview} 
+
+MacOS用のVRMビュアーです。MacOSネイティブ実装されており、言語はObjective-Cで書かれています。
+中で使われているライブラリ部分は VRMQuickLook @<fn>{2.VRMPreview.VRMQuickLook} として独立して公開されているところも注目です。
+//footnote[2.VRMPreview.VRMQuickLook][@<href>{https://github.com/magicien/VRMQuickLook}]
