@@ -274,7 +274,35 @@ VRで使う動画撮影用アプリです。
 VR空間をスタジオのように利用します。
 ネットワーク上で同じ空間を共有して配信が出来る。
 ステージはglTFのGLBファイルで読み込み可能。
-現在アルファ版ですが今後に期待できるアプリです。
+
+=== DesktopMaskot4VRM
+ * 作者：keel @<href>{https://www.nicovideo.jp/user/36762827,ニコニコ動画}
+ * URL：@<href>{https://github.com/keel-210/DesktopMaskot4VRM}
+
+オープンソースのデスクトップマスコットです。
+UnityEditor上でシナリオを編集し、アニメーションを設定したり、実行ファイル連携ができたりするようです。
+活動報告はニコニコ動画で行われるようです。@<fn>{2.DesktopMaskot4VRM.3}
+//footnote[2.DesktopMaskot4VRM.3][@<href>{https://www.nicovideo.jp/watch/sm33867534}]
+
+=== VMagicMirror
+ * 作者： 獏星（ばくすたー） @<href>{https://twitter.com/baku_dreameater,@baku_dreameater} 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://baku-dreameater.booth.pm/items/1272298} 
+
+マウスとキーボードにあわせてVRMモデルが動くアプリです。
+ウィンドウ透過に対応していて、シンプルかつ軽量で、身長や体格にあわせた設定も充実しており、
+配信のお供にとてもやさしい作りになっています。
+
+== デスクトップマスコット
+
+=== まじかる☆ですくとっぷ
+ * 作者：まじかる☆しげぽん  @<href>{https://twitter.com/m_sigepon,@m_sigepon} 
+ * プラットフォーム：Windows 
+ * URL：@<href>{https://sigepon.booth.pm/items/1271268} 
+
+背景透過でVRMモデルを表示できるデスクトップマスコットです。
+ダンスさせたりポーズを自由に変更出来たりします。
+まじかる☆すてっぷという機能で、動きに合わせてエフェクトが出ます。
 
 //pagebreak
 == ゲームアプリ
@@ -304,6 +332,15 @@ VRMキャラで街のフィールドを歩き回ったり、オブジェクト�
 Mac初の個人勢アプリで、R-18アプリです。子供は見ちゃいけません。
 内容は、VRMで任意のモーションを音声付きで再生するアプリです。
 
+=== キャラミん
+
+ * 開発元：AHS株式会社
+ * プラットフォーム：Windows
+ * URL：@<href>{https://www.ah-soft.com/charamin/#feature} 
+
+音楽に合わせてキャラクターがダンスするソフトです。
+元々MMDファイルを読み込んで遊ぶ用でしたが、VRMモデルにも対応したようです。
+
 //pagebreak
 == コミュニケーションアプリ
 
@@ -331,6 +368,21 @@ VRMスタンプ生成アプリ@<fn>{2.yashinut.4}です。台詞とポーズを�
 実際のコンテンツは小汚いおっさんのヨリ画像が多いのですが、VRMはかわいいキャラが多いのでMP削られることはなさそうです。
 アプリの持つポテンシャルは高いので、願わくば積極的に平和利用していきたいところです。
 
+
+=== LiveAvatar
+ * 作者：えむにわ @<href>{https://twitter.com/m2wasabi,@m2wasabi}
+ * URL：@<href>{https://github.com/m2wasabi/LiveAvatar}
+
+筆者の開発しているアプリです。2018年3月30日の明星和楽に出展されました。
+
+HTC Viveを使って、HMDなしで身振り手振りを演じることができるアプリです。@<fn>{2.LiveAvatar.douga}
+//footnote[2.LiveAvatar.douga][@<href>{https://www.youtube.com/watch?v=6xsGkaQ9_XI}]
+
+展示会やオフィスの受付けでの利用を想定して、すぐに始めてすぐに終われるコンセプトで作られています。
+またMITライセンスなので、自由に使えます。
+
+音声認識で自動的に字幕を出し、VOICEROIDなどに喋らせることができます。
+
 //pagebreak
 == ツール
 
@@ -344,7 +396,6 @@ VRMデータを作ったり応用するためのアプリです。
 
 個人開発の3Dモデリングツールです。
 ミニマル＆スタンダードな作りになっていて、基本的なモデリング機能はきれいにまとまっています。
-大仰な機能はありませんが、使いやすいです。
 
 現時点ではVRMの読み込みのみ対応しています@<fn>{2.xismo.1} @<fn>{2.xismo.2}。
 
@@ -423,49 +474,26 @@ VRoid Hub SDKは通信時に暗号化されており、外部からデータを�
 現在配信待ちの期待のアプリです。
 //}
 
-=== karukaruとXX
- * 作者：karukaru @<href>{https://twitter.com/_karukaru_,@_karukaru_} 
- * URL：@<href>{https://com.nicovideo.jp/community/co70543} 
-
-ニコ生のコミュニティでVR空間を共有するアプリケーションやミニゲームを開発されています。
-生放送の時限定で使えるアプリなどもあります。生放送時か正式リリースを待ちましょう。
-
 === Vカーソル
  * 作者：えもこ @<href>{https://twitter.com/emoco_art,@emoco_art} 
- * 情報ソース：@<href>{https://www.youtube.com/watch?v=jJls7xFXw3s} 
+ * URL：@<href>{https://emoco.art/vrm} 
 
 VRMモデルのキャラクターがマウスカーソルを追従するデスクトップマスコットです。
 
-=== VRP VRM Importer
+=== VirtualRealityPortalNetwork VRPN
  * 作者：Yuzuka4573 @<href>{https://twitter.com/yuzuka4573,@yuzuka4573}
  * URL：@<href>{https://www.pixiv.net/fanbox/creator/31349134}
 
 VRMモデルのプラットフォームです。VRMをアップロード、SDKを使ってVRMアバターをランタイムロードするようです。
+現在クローズドβ中です。
 
-現在クローズドβ中のようなので、興味ある方は使ってみてはいかがでしょうか。
+=== あばレポ
+ * 作者：とりすーぷ @<href>{https://twitter.com/toRisouP,@toRisouP}
+ * URL：@<href>{https://niconare.nicovideo.jp/watch/kn4017}
 
-=== DesktopMaskot4VRM
- * 作者：keel
- * URL：@<href>{https://github.com/keel-210/DesktopMaskot4VRM}
-
-オープンソースのデスクトップマスコットです。
-UnityEditor上でシナリオを編集し、アニメーションを設定したり、実行ファイル連携ができたりするようです。
-活動報告はニコニコ動画で行われるようです。@<fn>{2.DesktopMaskot4VRM.3}
-//footnote[2.DesktopMaskot4VRM.3][@<href>{https://www.nicovideo.jp/watch/sm33867534}]
-
-=== LiveAvatar
- * 作者：えむにわ @<href>{https://twitter.com/m2wasabi,@m2wasabi}
- * URL：@<href>{https://github.com/m2wasabi/LiveAvatar}
-
-筆者の開発しているアプリです。2018年3月30日の明星和楽に出展されました。
-
-HTC Viveを使って、HMDなしで身振り手振りを演じることができるアプリで、現在VRM対応中です@<fn>{2.LiveAvatar.douga}。
-//footnote[2.LiveAvatar.douga][@<href>{https://www.youtube.com/watch?v=6xsGkaQ9_XI}]
-
-展示会やオフィスの受付けでの利用を想定して、すぐに始めてすぐに終われるコンセプトで作られています。
-またMITライセンスなので、自由に使えます。
-
-本書の執筆がなければ現時点で完成していたという説もあります…
+動画配信支援ツールで、
+クロマキー合成前提の構成で、VRMキャラクターを表示し、配信者の音声に合わせてリップシンクで動きます。
+ニコニコ生放送などの動画配信サービスのユーザーコメント読み上げができます。
 
 //pagebreak
 == Unity以外のプラットフォーム
