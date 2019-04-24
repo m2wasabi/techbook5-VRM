@@ -14,7 +14,11 @@
 
 技術書典5に先立ちまして、前半2章を図表を除いた形で無料公開します。
 
-また、発行より半年が経過した2019年4月頃に、VRM1周年で記事の全ての内容をGitHubにて公開予定です。
+また、発行より半年が経過した2019年4月に、VRM1周年で記事の全ての内容をGitHubにて公開されております@<fn>{0.freebook}。 
+//footnote[0.freebook][@<href>{https://github.com/m2wasabi/techbook5-VRM}]
+
+続編の『VRM FANBOOK2』もBooth@<fn>{0.fanbook2}にて扱っておりますのでよろしくお願いします。
+//footnote[0.fanbook2][@<href>{https://m2wasabi.booth.pm/items/1270343}]
 
 == 本書にて掲載しているソースコードについて
 
