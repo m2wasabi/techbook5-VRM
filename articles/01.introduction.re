@@ -1,11 +1,13 @@
 = VRMとは
 
 VRMはオープンソースのアバターフォーマットライブラリ@<fn>{1.VRM.official}です。
-//footnote[1.VRM.official][VRM - dwango on GitHub @<href>{https://dwango.github.io/vrm/}]
+//footnote[1.VRM.official][VRM @<href>{https://vrm.dev/}]
 
 VRMとはオープンソースで公開された3Dアバターのためのファイルフォーマットです。
 ドワンゴを中心に開発が行われ、VRMに対応したソフトウェア（バーチャルキャストやcluster.など）であれば、
 自分の任意のキャラクターを読み込み、登場させることができます。
+
+2019年4月24日にVRMコンソーシアム設立に伴い、URLがドワンゴからVRMコンソーシアムに移管されました。
 
 == glTF2.0に準拠したファイルフォーマット
 

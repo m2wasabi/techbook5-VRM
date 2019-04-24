@@ -116,8 +116,8 @@ VRMモデルを見るためのアプリです。
 
 === UniVRMTest
 
- * 作者：株式会社ドワンゴ 
- * URL：@<href>{https://github.com/dwango/UniVRMTest} 
+ * 作者：株式会社ドワンゴ → VRM コンソーシアム
+ * URL：@<href>{https://github.com/vrm-c/UniVRMTest} 
 
 UniVRMの公式サンプルです。
 モーションを読み込んでアニメーションとMETA情報の確認ができます。

@@ -42,7 +42,7 @@ VR空間に着ていくアバターをすべての人が自作出来ればいい
 以下、モデルに依存した細かい部分について説明します。
 
 まずはUnityで新規プロジェクトを作成し、UniVRM@<fn>{3.univrm}をインポートします。
-//footnote[3.univrm][UniVRM：@<href>{https://github.com/dwango/UniVRM/releases}]
+//footnote[3.univrm][UniVRM：@<href>{https://github.com/vrm-c/UniVRM/releases}]
 
 === FBXデータの読み込み
 
