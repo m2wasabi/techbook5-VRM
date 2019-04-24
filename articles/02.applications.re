@@ -361,7 +361,7 @@ Mac初の個人勢アプリで、R-18アプリです。子供は見ちゃいけ�
 
 === VRM憑依ちゃん（R-18）
 
- * 作者：せすれりあ  @<href>{https://twitter.com/sesleria,@} 
+ * 作者：せすれりあ  @<href>{https://twitter.com/sesleria,@sesleria} 
  * プラットフォーム：Windows, OculusRift(HTCViveでもできるらしい？)
  * URL：@<href>{https://sesleria.booth.pm/items/1305578} 
 
