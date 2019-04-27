@@ -311,6 +311,19 @@ TDA式アペンドミクやVRMを使って映像作品を作るツールです�
 
 //footnote[2.playanimaker][@<href>{http://mitchie-m.com/blog/vr/playanimaker-manual-p1/}]
 
+=== COCOPStudio
+
+ * 作者：若草なずな  @<href>{https://twitter.com/NazzTea,@NazzTea} 
+ * プラットフォーム：Windows, @<href>{https://play.google.com/store/apps/details?id=com.COCOP,Android}  
+ * URL（FANBOX）：@<href>{https://www.pixiv.net/fanbox/creator/4787573} 
+
+漫画制作のための素材作成アプリです。
+VRMのポーズを整えて撮影をすることが主な機能です。
+
+一番の特徴は、ポーズをQRコード化することができて、それを外部からインポートできる点です。
+これにより、ビュワーソフトなのにポーズが少ない、ポーズのセットアップが大変などという問題が解決します。
+誇張無しにポーズの表現は無限大のアプリです。
+
 == デスクトップマスコット
 
 === まじかる☆ですくとっぷ
